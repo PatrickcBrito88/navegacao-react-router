@@ -1,0 +1,32 @@
+.Menu{
+    display: flex;
+    flex-basis: 250px; /* tipo de menu*/
+
+    background-color: dodgerblue;
+}
+
+.Menu nav{
+    flex-grow: 1;
+}
+
+.Menu ul {
+    list-style: none; /* tirar as bolinhas de lista*/
+    padding: 0;
+}
+
+.Menu li{
+    display: flex;
+}
+
+.Menu li a{
+    text-decoration: none; /*tirar o underline*/
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 10px; /* espaçamento em todas as direções */
+    flex: 1;  /* permite que o link se expanda por toda a linha */
+}
+
+.Menu li a:hover{
+    background-color: #00000030; /* coloca uma transparência quando o mouse passa por cima */
+}

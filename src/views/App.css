@@ -1,0 +1,4 @@
+.App{
+    display: flex;
+    height: 100vh; /*vh é uma medida de % da tela - 100 vh significa 100% da tela */
+}
